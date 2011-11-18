@@ -36,20 +36,20 @@
 		5A88AE6B1475DAC3004A67DA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5A88AE6C1475DAC3004A67DA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5A88AE6D1475DAC3004A67DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5A88AE701475DAC3004A67DA /* Ode-Info.plist */ = {isa = PBXFileReference; path = "Ode-Info.plist"; sourceTree = "<group>"; };
+		5A88AE701475DAC3004A67DA /* Ode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ode-Info.plist"; sourceTree = "<group>"; };
 		5A88AE721475DAC3004A67DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5A88AE741475DAC3004A67DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5A88AE761475DAC3004A67DA /* Ode-Prefix.pch */ = {isa = PBXFileReference; path = "Ode-Prefix.pch"; sourceTree = "<group>"; };
+		5A88AE761475DAC3004A67DA /* Ode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ode-Prefix.pch"; sourceTree = "<group>"; };
 		5A88AE781475DAC3004A67DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		5A88AE7A1475DAC3004A67DA /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A88AE7A1475DAC3004A67DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5A88AE7B1475DAC3004A67DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5A88AE7E1475DAC4004A67DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5A88AE811475DAC4004A67DA /* Ode.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ode.xcdatamodel; sourceTree = "<group>"; };
 		5A88AE881475DAC4004A67DA /* OdeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OdeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A88AE891475DAC4004A67DA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5A88AE901475DAC4004A67DA /* OdeTests-Info.plist */ = {isa = PBXFileReference; path = "OdeTests-Info.plist"; sourceTree = "<group>"; };
+		5A88AE901475DAC4004A67DA /* OdeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OdeTests-Info.plist"; sourceTree = "<group>"; };
 		5A88AE921475DAC4004A67DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5A88AE941475DAC4004A67DA /* OdeTests.h */ = {isa = PBXFileReference; path = OdeTests.h; sourceTree = "<group>"; };
+		5A88AE941475DAC4004A67DA /* OdeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OdeTests.h; sourceTree = "<group>"; };
 		5A88AE951475DAC4004A67DA /* OdeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OdeTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
