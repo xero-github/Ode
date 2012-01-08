@@ -10,14 +10,16 @@
 
 @implementation AppDelegate
 
-@synthesize window = _window;
 @synthesize persistentStoreCoordinator = __persistentStoreCoordinator;
 @synthesize managedObjectModel = __managedObjectModel;
 @synthesize managedObjectContext = __managedObjectContext;
+@synthesize mainWindow;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    mainWindow = [[MainWindowController alloc] initWithWindowNibName:@"MainWindow"];
+   [[mainWindow window] makeKeyAndOrderFront:self];
+    [mainWindow performSelector:@selector(showOauthSheetIfNeeded) withObject:nil afterDelay:0.5];
 }
 
 /**
